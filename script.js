@@ -1,5 +1,5 @@
 function calculate() {
-    let hours = document.getElementById('PerDay').value;
+    let hours = document.getElementById('perDay').value;
     console.log(hours);
     let age = document.getElementById('age').value;
     console.log(age);
@@ -7,5 +7,5 @@ function calculate() {
     console.log(result);
     let sleepYears = (result * hours) / 24;
     console.log(sleepYears)
-    return document.getElementById("result").innerHTML = sleepYears;
+    return document.getElementById("result").innerHTML =(sleepYears.toFixed(2) + " anos");
 }

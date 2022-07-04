@@ -4,33 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <div>
-            <label for="hoursSleepPerDay">
+    <header>
+        <img src="../timeCalculator/pngAndMp4/—Pngtree—luxury white super sports car_5574998.png" alt="">
+    </header>
+    <main>
+        <form action="">
+            <div>
+                <h1>Vamos calcular quantos anos da sua vida você passa dormindo, de acordo com sua idade e quantas horas de sono por dia.</h1>
+                <h3>Usamos como base a espectativa de vida de 80 (oitenta) anos de idade.</h3>
+                <label for="hoursSleepPerDay" class="label1">
                 Horas dormidas por dia:
-            </label>
-            <input type="number" id="PerDay" name="hoursSleepPerDay">
-            <br>
-            <br>
-            <label for="age">
+                </label>
+                <input type="number" id="perDay" name="hoursSleepPerDay">
+                <br>
+                <br>
+                <label for="age" class="label2">
                 Idade: 
-            </label>
-            <input type="number" id="age" name="age">
-            <p>
-            <button type="button" onclick="calculate()  ">Calcule</button>
-            </p>
-        </div>
-    </form>
+                </label>
+                 <input type="number" id="age" name="age">
+                <br>
+                <br> 
+                <p>
+                    <button type="button" onclick="calculate()  " class="button">Calcule</button>
+                </p>
+            </div>
+        </form>
+    </main>
+    <br>
     <section>
-        <p>Result:
-            <h2 id="result"></h2>
+        <p class="result">Resultado: 
+            <span id="result"></span>
         </p>
     </section>
-    <div>
+    <footer>
+        <h3>♠Feito com dedicação por Luís Clapp♠</h3>
+    </footer>
+    <span>
         <script src="./script.js"></script>
-    </div>
+    </span>
 </body>
 </html>
