@@ -1,0 +1,62 @@
+* {
+    background-color: #779550;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+    position: relative;
+    float: right;
+    padding-right: 44px;
+}
+
+.label1 {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+#perDay {
+    border-radius: 5px;
+}
+
+.label2 {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+#age{
+    border-radius: 5px;
+}
+
+.button{
+    background: linear-gradient(black, yellow);
+    color: white; 
+    transition: filter .2s;
+    text-transform: uppercase;
+    border-color: yellow;
+}
+
+button:hover {
+           
+    filter: brightness(1.2);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.result{
+    display: flex;
+}
+
+#result{
+    padding-left: 0.5%;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    padding-top: 16%;
+}
