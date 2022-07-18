@@ -8,4 +8,4 @@ function calculate() {
     let sleepYear = (result * hours) / 24;
 
     return document.getElementById("result").innerHTML =(sleepYear.toFixed(2) + " anos");
-}
+} 
